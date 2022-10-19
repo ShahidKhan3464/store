@@ -1,0 +1,14 @@
+.Products {
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+
+@media screen and (max-width: 991px) {
+    .Products {
+        justify-content: center;
+    }
+}

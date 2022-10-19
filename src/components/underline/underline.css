@@ -1,0 +1,6 @@
+.underline {
+    width: 10%;
+    height: 1px;
+    margin: 0 auto;
+    background: var(--bgColor);
+}

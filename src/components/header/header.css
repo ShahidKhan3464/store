@@ -1,0 +1,97 @@
+header {
+    margin-bottom: 50px;
+}
+
+.navbar {
+    opacity: 0.9;
+    padding: 20px 0;
+    background: var(--bgColor);
+}
+
+.navbar .logo-text {
+    font-size: 24px;
+    color: var(--primaryColor);
+    font-weight: var(--mainWeight);
+    text-shadow: var(--textShadow);
+    letter-spacing: var(--letterSpacing);
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: space-between;
+}
+
+.navbar-nav {
+    gap: 60px;
+    margin: auto;
+}
+
+.navbar-nav .cart-icon {
+    position: relative;
+}
+
+.cart-icon svg {
+    width: 25px;
+    fill: white;
+}
+
+.cart-icon .quantity {
+    top: -10px;
+    width: 23px;
+    right: -10px;
+    height: 23px;
+    display: flex;
+    border-radius: 50%;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    background: var(--primaryColor);
+}
+
+.quantity .total-quantity {
+    margin: 0;
+    color: white;
+}
+
+.navbar .btns {
+    gap: 20px;
+    display: flex;
+}
+
+.btns button {
+    border: none;
+    background: var(--primaryColor);
+    letter-spacing: var(--mainSpacing);
+}
+
+.navbar .active, a:hover {
+    color: var(--primaryColor) !important;
+}
+
+
+@media screen and (max-width: 991px) {
+    .navbar-toggler {
+        padding: 3px 6px !important;
+        background: var(--mainWhite) !important;
+    }
+
+    .navbar-toggler-icon {
+        width: 1em !important;
+        height: 1em !important;
+    }
+
+    .navbar-collapse {
+        padding: 20px 0;
+    }
+
+    .navbar-nav {
+        gap: 20px;
+    }
+
+    .navbar .btns {
+        padding-top: 20px;
+    }
+
+    .cart-icon .quantity {
+        left: 10px;
+    }
+}

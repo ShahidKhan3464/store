@@ -1,0 +1,119 @@
+.title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.title h2 {
+    font-family: 'Lora', serif;
+    color: var(--headingColor);
+}
+
+/* ******Flex Form******* */
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flex-container .signIn-img {
+    width: 100%;
+    height: 280px;
+    max-width: 400px;
+}
+
+.flex-container .signUp-img {
+    width: 100%;
+    height: 400px;
+    max-width: 450px;
+}
+
+.signIn-img img, .signUp-img img {
+    filter: invert(5%);
+}
+
+form {
+    width: 30%;
+    padding: 15px;
+    border-radius: 10px;
+    background: var(--mainWhite);
+    box-shadow: var(--darkShadow);
+}
+
+form label {
+    font-size: 12px;
+    font-weight: var(--mainWeight);
+    letter-spacing: var(--letterSpacing);
+}
+
+form .form-control {
+    padding: 10px;
+    font-size: 12px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    background-image: none !important;
+    background: var(--mainBackground);
+    letter-spacing: var(--letterSpacing);
+    border-color: var(--mainBackground) !important;
+}
+
+.form-control:focus {
+    box-shadow: var(--darkShadow) !important;
+    background: var(--mainBackground) !important;
+}
+
+form button {
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+    border: none !important;
+    font-size: 14px !important;
+    border-radius: 20px !important;
+    letter-spacing: var(--letterSpacing);
+    font-weight: var(--mainWeight) !important;
+    background: var(--primaryColor) !important;
+}
+
+form button:hover {
+    color: var(--primaryColor) !important;
+    background: var(--mainBackground) !important;
+    border: 1px solid var(--primaryColor) !important;
+}
+
+form p {
+    margin: 0;
+    font-size: 12px;
+    text-align: center;
+    letter-spacing: var(--letterSpacing);
+}
+
+p a {
+    letter-spacing: var(--letterSpacing);
+    color: var(--primaryColor) !important;
+    font-weight: var(--mainWeight) !important;
+}
+
+@media screen and (max-width: 991px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .title {
+        margin-bottom: 30px;
+    }
+
+    .flex-container .signIn-img {
+        height: 200px;
+        max-width: 300px;
+    }
+
+    .flex-container .signUp-img {
+        height: 300px;
+        max-width: 300px;
+    }
+
+    form {
+        width: 85%;
+    }
+}

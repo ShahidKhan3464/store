@@ -1,0 +1,39 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Shoes",
+            "price": 10,
+            "quantity": 1,
+            "img": "./src/assets/images/shoe.png"
+        },
+        {
+            "id": 2,
+            "name": "Watch",
+            "price": 20,
+            "quantity": 1,
+            "img": "../src/assets/images/shoe.png"
+        },
+        {
+            "id": 3,
+            "name": "T-Shirt",
+            "price": 30,
+            "quantity": 1,
+            "img": "./src/assets/images/shoe.png"
+        },
+        {
+            "id": 4,
+            "name": "Socks",
+            "price": 10,
+            "quantity": 1,
+            "img": "./src/assets/images/shoe.png"
+        },
+        {
+            "id": 5,
+            "name": "Pc",
+            "price": 50,
+            "quantity": 1,
+            "img": "./src/assets/images/shoe.png"
+        }
+    ]
+}

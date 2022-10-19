@@ -1,0 +1,29 @@
+.card {
+    width: 16rem;
+    box-shadow: var(--darkShadow);
+}
+
+.card-title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-title h6 {
+    color: var(--primaryColor);
+}
+
+.rating {
+    gap: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.card button {
+    height: 35px;
+    margin-top: 20px;
+    border: none !important;
+    font-size: 14px !important;
+    background: var(--primaryColor);
+    letter-spacing: var(--letterSpacing);
+}
